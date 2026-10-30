@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this style in your work, please cite it as below."
+title: "cmp.bst: a BibTeX style for Contributions to Mineralogy and Petrology"
+version: "2.1"
+date-released: "2026-10-30"
+license: MIT
+authors:
+  - family-names: Michaux
+    given-names: Alexandre

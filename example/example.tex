@@ -1,0 +1,25 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{natbib}
+\usepackage{url}
+
+% Author-year citations, CMP style: (Silver and Stolper 1989; Gualda et al. 2012)
+\bibpunct{(}{)}{;}{a}{}{,~}
+
+\begin{document}
+
+\section*{Example}
+
+Water solubility in silicate melts is well constrained
+\citep{Silver1989}. Rhyolite-MELTS and its fluid-saturation model
+\citep{Gualda2012,Ghiorso2015} are widely used; see also
+\citet{Nittler2018} for the chemistry of Mercury and \citet{Roberti2021}
+for volcanic landslides. Software, datasets and web pages are cited the same
+way \citep{QGIS2024,GVP2013,BRGMweb}.
+
+\bibliographystyle{../cmp}   % path to cmp.bst (drop "../" if it sits next to this file)
+\bibliography{references}
+
+\end{document}
