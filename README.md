@@ -124,8 +124,7 @@ pdflatex t && bibtex t && pdflatex t && pdflatex t
 
 ## License
 
-[MIT](LICENSE) © 2026 Alexandre Michaux. This style is a rewrite of an earlier personal version, itself derived from
-`ulg-geoFR.bst`, `agsm.bst` (P. Williams, 1991) and the standard BibTeX styles by O. Patashnik. If you modify
+[MIT](LICENSE) © 2026 Alexandre Michaux. This style is a rewrite of an earlier personal version, itself derived from `agsm.bst` (P. Williams, 1991) and the standard BibTeX styles by O. Patashnik. If you modify
 `cmp.bst`, please rename your version.
 
 ## Citing
